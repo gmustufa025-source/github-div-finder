@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Dev Finder</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>GitHub Dev Finder</h1>
+
+    <!-- Search Box -->
+
+    <div class="search-box">
+
+        <input
+        type="text"
+        id="searchInput"
+        placeholder="Enter GitHub Username">
+
+        <button id="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+    <!-- Profile Card -->
+
+    <div class="profile-card">
+
+        <img
+        id="avatar"
+        src="https://avatars.githubusercontent.com/u/583231?v=4"
+        alt="Profile">
+
+        <h2 id="name">The Octocat</h2>
+
+        <p id="username">@octocat</p>
+
+        <p id="bio">
+            GitHub Profile Information
+        </p>
+
+        <!-- Stats -->
+
+        <div class="stats">
+
+            <div class="stat">
+                <h3 id="repos">0</h3>
+                <span>Repos</span>
+            </div>
+
+            <div class="stat">
+                <h3 id="followers">0</h3>
+                <span>Followers</span>
+            </div>
+
+            <div class="stat">
+                <h3 id="following">0</h3>
+                <span>Following</span>
+            </div>
+
+        </div>
+
+        <!-- Details -->
+
+        <div class="details">
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="location">Location</span>
+            </p>
+
+            <p>
+                <i class="fa-solid fa-building"></i>
+                <span id="company">Company</span>
+            </p>
+
+            <p>
+                <i class="fa-solid fa-link"></i>
+
+                <a
+                id="profileLink"
+                href="#"
+                target="_blank">
+                Visit Profile
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
